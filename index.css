@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display:block;
+}
+.col-md-2{
+    margin:0;
+    padding:0px 0px;
+    }
+.hh6{
+    font-weight:600;
+    margin-bottom: 1vh;
+    margin-top:1.5vh;
+    font-size:1.5em;
+}
+
+.hh7{
+    font-weight:bold;
+    margin: 1vh 0 2vh 0;
+    font-size: 1.3vw;
+}
+.text{
+    font-size: 0.9em;
+    color: #8080808c;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+.contain{
+    display:flex;
+    margin-left:0px;
+    margin-right: 0px;
+    padding-left:0px;
+    padding-right: 0px;
+}
+.nav{
+    width:17.5vw;
+    background-color: white;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+}
+
+.icon{
+    margin-right: 8px;
+    font-size: 1 em;
+}
+.list-element{
+    color:rgb(102, 96, 96);
+    font-size: 1em;
+    padding: 2vh 0px;
+    margin: 0px 1vw;
+}
+
+.list-element:hover{
+    background-color: whitesmoke;
+    border-radius: 0.4em;
+    color: black;
+}
+.list-element:hover .icon{
+    color:rgb(57, 207, 157);
+}
+.hhr{
+    margin-bottom: 3vh;
+    margin-top: 6vh;
+}
+.low-element{
+    color:rgb(102, 96, 96);
+    font-size: 1em;
+    padding: 2vh 0px;
+    margin: 0px 1vw;
+
+}
+.low-element:hover{
+    background-color: whitesmoke;
+    border-radius: 0.5em;
+    color: black;
+}
+.content{
+background-color: whitesmoke;
+width:82.5vw;
+height:100vh;
+padding:4vh;
+}
+.fa-envelope{
+    color:white;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.grad{
+    background-image: linear-gradient(to right, black , rgb(193 165 145));
+    width:auto;
+    height:7.5vw;
+    display:flex;
+    align-items: flex-end;
+    margin-bottom: 7vh;
+}
+.fa-envelope{
+    font-size: 0.7em;
+}
+.main-content{
+display:flex;
+justify-content: space-around;
+margin-top: 6vh;
+}
+.top{
+    display:flex;
+    justify-content:space-between;
+}
+.image{
+    
+    font-size: 0.75em;
+    color: rgb(148 148 148);
+}
+.red1{
+   background-color:#ae7a77;
+}
+.red2{
+background-color: #d17773;
+}
+.red3{
+    background-color: #bd372c;
+}
+.parents{
+background-color: white;
+width:40vw;
+margin:3vh 0.7vw 0 0;
+padding: 3%;
+height:78vh;
+}
+.leads{
+background-color: white;
+width:40vw;
+margin:3vh 0.7vw 0 0.7vw;
+padding:3%;
+height:78vh;
+}
+
+
